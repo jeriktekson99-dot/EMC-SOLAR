@@ -98,7 +98,7 @@ export default function Footer({ onNavigate, onGetQuotation }: FooterProps) {
             </div>
 
             <p className="text-sm text-slate-600 leading-relaxed max-w-sm font-normal">
-              Solareign Solar Power Services delivers premium, Tier-1 engineered solar power solutions across the Philippines, establishing the absolute gold standard of clean energy performance and structural integrity.
+              EMC Solar Solutions delivers premium, Tier-1 engineered solar power solutions across the Philippines, establishing the absolute gold standard of clean energy performance and structural integrity.
             </p>
 
             {/* Circular Social Icons */}
@@ -274,7 +274,7 @@ export default function Footer({ onNavigate, onGetQuotation }: FooterProps) {
         {/* Bottom Bar: Copyright on Left, Legal & Compliance on Right */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500 text-center md:text-left">
           <p className="leading-relaxed">
-            &copy; {new Date().getFullYear()} Solareign Solar Power Services. All engineering assets and system layouts are proprietary.
+            &copy; {new Date().getFullYear()} EMC Solar Solutions. All engineering assets and system layouts are proprietary.
           </p>
 
           <div className="flex flex-wrap items-center justify-center md:justify-end gap-x-3 gap-y-1 text-xs font-semibold tracking-wider uppercase text-slate-500">
@@ -338,7 +338,7 @@ export default function Footer({ onNavigate, onGetQuotation }: FooterProps) {
                 </div>
                 <h3 className="text-xl font-black text-white">Authorized Engineering Portal</h3>
                 <p className="text-sm text-slate-300 leading-relaxed">
-                  Access to the central inverter telemetry database, single-line diagrams (SLD), and field operations scheduling is restricted to certified Solareign Solar field engineers.
+                  Access to the central inverter telemetry database, single-line diagrams (SLD), and field operations scheduling is restricted to certified EMC Solar Solutions field engineers.
                 </p>
                 <div className="p-3.5 rounded-xl bg-slate-800/80 border border-slate-700 text-xs text-slate-300 space-y-1">
                   <div className="font-bold text-[#FACC15]">Support Dispatch:</div>
@@ -354,7 +354,7 @@ export default function Footer({ onNavigate, onGetQuotation }: FooterProps) {
                 </div>
                 <h3 className="text-xl font-black text-white">Privacy Policy &amp; Data Security</h3>
                 <p className="text-sm text-slate-300 leading-relaxed">
-                  Solareign Solar Power Services strictly adheres to the Philippine Data Privacy Act of 2012 (RA 10173). Electrical utility meter data, roof CAD assessments, and homeowner contact information collected during quotation generation are encrypted and never shared with third parties.
+                  EMC Solar Solutions strictly adheres to the Philippine Data Privacy Act of 2012 (RA 10173). Electrical utility meter data, roof CAD assessments, and homeowner contact information collected during quotation generation are encrypted and never shared with third parties.
                 </p>
                 <ul className="text-xs text-slate-400 space-y-1.5 list-disc pl-4">
                   <li>Utility bill data is analyzed exclusively for photovoltaic kW sizing.</li>
@@ -385,7 +385,7 @@ export default function Footer({ onNavigate, onGetQuotation }: FooterProps) {
                 </div>
                 <h3 className="text-xl font-black text-white">Safety Standard Compliance</h3>
                 <p className="text-sm text-slate-300 leading-relaxed">
-                  Every Solareign Solar project is built strictly to the Philippine Electrical Code (PEC 2017) and IEEE 1547 interconnection standards. Systems include rapid-shutdown DC isolators, class-leading surge protection devices (SPD), and ground-fault protection.
+                  Every EMC Solar Solutions project is built strictly to the Philippine Electrical Code (PEC 2017) and IEEE 1547 interconnection standards. Systems include rapid-shutdown DC isolators, class-leading surge protection devices (SPD), and ground-fault protection.
                 </p>
                 <div className="p-3 rounded-lg bg-red-950/60 border border-red-800/60 text-xs text-red-200">
                   Signed and sealed by Professional Electrical Engineers (PEE) for full Meralco net-metering approval.

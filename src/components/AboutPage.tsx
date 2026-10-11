@@ -166,7 +166,7 @@ export default function AboutPage({ onConsultationClick, onNavigateServices }: A
                   <div className="relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[10/9] bg-slate-900">
                     <img
                       src="https://cdn.phototourl.com/free/2026-09-17-a079cea0-b252-44b5-a28e-9b9430b0f5cc.png"
-                      alt="Completed rooftop solar installation in Cavite by Solareign"
+                      alt="Completed rooftop solar installation in Cavite by EMC Solar Solutions"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
                       referrerPolicy="no-referrer"
@@ -201,7 +201,7 @@ export default function AboutPage({ onConsultationClick, onNavigateServices }: A
 
               {/* Content Narrative */}
               <p className="text-lg text-slate-700 font-medium leading-relaxed">
-                <strong>Founded in 2020 in Dasmariñas, Cavite</strong>, Solareign provides turnkey solar solutions that protect homes and businesses from rising utility rates and grid blackouts. We deliver high-efficiency systems designed to <strong>maximize savings and ensure true long-term energy independence</strong>.
+                <strong>Founded in 2020 in Dasmariñas, Cavite</strong>, EMC Solar Solutions provides turnkey solar solutions that protect homes and businesses from rising utility rates and grid blackouts. We deliver high-efficiency systems designed to <strong>maximize savings and ensure true long-term energy independence</strong>.
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed">
@@ -239,7 +239,7 @@ export default function AboutPage({ onConsultationClick, onNavigateServices }: A
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed">
-                Through uncompromised Tier-1 hardware, strict zero-leak mounting protocols, and client-first after-sales maintenance, Solareign ensures that your transition to solar pays back rapidly and performs reliably for decades.
+                Through uncompromised Tier-1 hardware, strict zero-leak mounting protocols, and client-first after-sales maintenance, EMC Solar Solutions ensures that your transition to solar pays back rapidly and performs reliably for decades.
               </p>
             </div>
 
@@ -260,7 +260,7 @@ export default function AboutPage({ onConsultationClick, onNavigateServices }: A
                   <div className="relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[10/9] bg-slate-900">
                     <img
                       src="https://cdn.phototourl.com/free/2026-09-17-b66f4b5e-f095-489b-b4e0-a8a735f4a4cb.png"
-                      alt="Completed rooftop solar installation in Cavite by Solareign"
+                      alt="Completed rooftop solar installation in Cavite by EMC Solar Solutions"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
                       referrerPolicy="no-referrer"

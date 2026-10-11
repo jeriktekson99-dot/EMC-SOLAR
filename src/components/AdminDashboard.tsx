@@ -660,7 +660,7 @@ export default function AdminDashboard({ onBackToHome, onLogout }: AdminDashboar
             <div className="flex items-center">
               <img
                 src={SOLAREIGN_LOGO_URL}
-                alt="Solareign"
+                alt="EMC Solar Solutions"
                 referrerPolicy="no-referrer"
                 className="h-10 w-auto object-contain drop-shadow-md"
               />
@@ -2191,7 +2191,7 @@ export default function AdminDashboard({ onBackToHome, onLogout }: AdminDashboar
               Schedule Client Ocular Assessment
             </h2>
             <p className="text-xs text-slate-400 mb-6">
-              Assign a Solareign field engineering team to audit roof orientation and electrical service entrances.
+              Assign an EMC Solar Solutions field engineering team to audit roof orientation and electrical service entrances.
             </p>
 
             <form onSubmit={handleAddOcularTrip} className="space-y-4 text-xs">

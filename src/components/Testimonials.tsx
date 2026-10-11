@@ -17,7 +17,7 @@ const CLIENT_REVIEWS: ClientReview[] = [
     role: 'Homeowner',
     location: 'IMUS, CAVITE',
     quote:
-      'We were skeptical about solar yielding actual savings in high-temp months. Solareign proved us wrong: Our household energy bills dropped by 64% from month one! The certified crew was exceptionally fast, neat, and highly professional.',
+      'We were skeptical about solar yielding actual savings in high-temp months. EMC Solar Solutions proved us wrong: Our household energy bills dropped by 64% from month one! The certified crew was exceptionally fast, neat, and highly professional.',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80',
     rating: 5,
   },
@@ -37,7 +37,7 @@ const CLIENT_REVIEWS: ClientReview[] = [
     role: 'Homeowner',
     location: 'DASMARIÑAS, CAVITE',
     quote:
-      'Solareign provided absolute clarity during the technical site audit. Their detailed engineering blueprints and honest ROI projection made execution straightforward. Our residential array now offsets 100% of our midday household loads.',
+      'EMC Solar Solutions provided absolute clarity during the technical site audit. Their detailed engineering blueprints and honest ROI projection made execution straightforward. Our residential array now offsets 100% of our midday household loads.',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80',
     rating: 5,
   },
@@ -61,7 +61,7 @@ export default function Testimonials() {
           </h2>
           
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-            We monitor home energy accounts live. Read verified statements from industrial partners and private homeowners alike who made the Solareign switch.
+            We monitor home energy accounts live. Read verified statements from industrial partners and private homeowners alike who made the EMC Solar Solutions switch.
           </p>
         </div>
 

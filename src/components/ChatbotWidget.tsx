@@ -157,7 +157,7 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
     {
       id: 'msg-1',
       sender: 'bot',
-      text: "Hello! I'm your Solareign Assistant.\nHow can I help you transition to clean, cost-efficient solar energy today?",
+      text: "Hello! I'm your EMC Solar Solutions Assistant.\nHow can I help you transition to clean, cost-efficient solar energy today?",
       timestamp: '12:39 PM',
     }
   ];
@@ -188,7 +188,7 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
   const viberMessagesEndRef = useRef<HTMLDivElement>(null);
 
   const viberStarters = [
-    { label: '"Hi Solareign! I\'d like to get a free solar quote..."', query: "Hi Solareign! I'd like to get a free solar quote for my home/business." },
+    { label: '"Hi EMC Solar Solutions! I\'d like to get a free solar quote..."', query: "Hi EMC Solar Solutions! I'd like to get a free solar quote for my home/business." },
     { label: '"Hello! I am inquiring about solar pricing..."', query: "Hello! I am inquiring about solar pricing and packages." },
   ];
 
@@ -209,7 +209,7 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
   const messengerMessagesEndRef = useRef<HTMLDivElement>(null);
 
   const messengerStarters = [
-    { label: '"Hi Solareign! I\'d like to get a free solar quote..."', query: "Hi Solareign! I'd like to get a free solar quote for my home/business." },
+    { label: '"Hi EMC Solar Solutions! I\'d like to get a free solar quote..."', query: "Hi EMC Solar Solutions! I'd like to get a free solar quote for my home/business." },
     { label: '"Hello! I am inquiring about solar pricing..."', query: "Hello! I am inquiring about solar pricing and packages." },
   ];
 
@@ -391,7 +391,7 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
     // 2. FAQ: Inquire about Net Metering
     if (text.includes('net meter') || text.includes('meralco') || text.includes('erc') || text.includes('export') || text.includes('grid')) {
       return {
-        reply: 'Solareign Solar Power Services provides 100% turnkey Meralco Net Metering processing!\n\nWe manage everything on your behalf:\n• Professional Electrical Engineer (PEE) signed and sealed single-line plans\n• Distribution Impact Study (DIS)\n• Certificate of Final Electrical Inspection (CFEI)\n• Bi-directional smart meter installation to earn automatic billing credits for surplus power.',
+        reply: 'EMC Solar Solutions provides 100% turnkey Meralco Net Metering processing!\n\nWe manage everything on your behalf:\n• Professional Electrical Engineer (PEE) signed and sealed single-line plans\n• Distribution Impact Study (DIS)\n• Certificate of Final Electrical Inspection (CFEI)\n• Bi-directional smart meter installation to earn automatic billing credits for surplus power.',
         action: {
           type: 'quote',
           label: 'Consult an Engineer on Net Metering'
@@ -413,7 +413,7 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
     // 4. FAQ: View Solar Array Specs
     if (text.includes('spec') || text.includes('array') || text.includes('panel') || text.includes('inverter') || text.includes('equipment') || text.includes('hardware')) {
       return {
-        reply: 'Solareign Solar Power Services installs premium Tier-1 engineering equipment:\n\n• Solar Panels: N-Type TOPCon & Bifacial modules (580W+ each, >22.5% efficiency, 25-yr linear warranty)\n• Inverters: Smart Grid-Tie & Hybrid inverters (Huawei, Solis, Deye) with IP65 weather rating & rapid shutdown\n• Battery Storage: High-cycle LiFePO4 (Lithium Iron Phosphate) with 6,000+ cycle life\n• Mounting: Anodized marine-grade aluminum rails & 304 stainless fasteners.',
+        reply: 'EMC Solar Solutions installs premium Tier-1 engineering equipment:\n\n• Solar Panels: N-Type TOPCon & Bifacial modules (580W+ each, >22.5% efficiency, 25-yr linear warranty)\n• Inverters: Smart Grid-Tie & Hybrid inverters (Huawei, Solis, Deye) with IP65 weather rating & rapid shutdown\n• Battery Storage: High-cycle LiFePO4 (Lithium Iron Phosphate) with 6,000+ cycle life\n• Mounting: Anodized marine-grade aluminum rails & 304 stainless fasteners.',
         action: {
           type: 'services',
           label: 'View Solar Engineering Services'
@@ -424,7 +424,7 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
     // Battery Backup Installation & UPS / Inverter Upgrades
     if (text.includes('battery') || text.includes('bess') || text.includes('ups') || text.includes('backup') || text.includes('hybrid') || text.includes('brownout') || text.includes('blackout')) {
       return {
-        reply: 'Solareign specializes in Battery Backup Installation and Whole-Home UPS/Inverter Upgrades. Using high-cycle LiFePO4 batteries and intelligent smart hybrid inverters, our systems provide sub-10ms automatic switchover to keep your appliances, lights, and air conditioning running seamlessly during power outages.',
+        reply: 'EMC Solar Solutions specializes in Battery Backup Installation and Whole-Home UPS/Inverter Upgrades. Using high-cycle LiFePO4 batteries and intelligent smart hybrid inverters, our systems provide sub-10ms automatic switchover to keep your appliances, lights, and air conditioning running seamlessly during power outages.',
         action: {
           type: 'services',
           label: 'Explore Battery & UPS Services'
@@ -435,7 +435,7 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
     // Net Metering Application Assistance
     if (text.includes('net meter') || text.includes('meralco') || text.includes('sell') || text.includes('export') || text.includes('credit') || text.includes('metering')) {
       return {
-        reply: 'Solareign provides turnkey Net Metering Application Assistance. We handle Distribution Utility / Meralco coordination, Single-Line Diagrams, Distribution Impact Studies (DIS), and bi-directional meter engineering so you can sell surplus solar power back to the grid for electric bill credits.',
+        reply: 'EMC Solar Solutions provides turnkey Net Metering Application Assistance. We handle Distribution Utility / Meralco coordination, Single-Line Diagrams, Distribution Impact Studies (DIS), and bi-directional meter engineering so you can sell surplus solar power back to the grid for electric bill credits.',
         action: {
           type: 'services',
           label: 'Explore Net Metering Assistance'
@@ -466,7 +466,7 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
     }
 
     return {
-      reply: 'Thank you for reaching out! Solareign offers 6 core services:\n1. Battery Backup Installation\n2. Whole-Home UPS/Inverter Upgrades\n3. Panel Cleaning & Inspection\n4. Performance Monitoring Setup\n5. System Health Checks & Inverter Diagnostics\n6. Net Metering Application Assistance\n\nWould you like a customized proposal or technical consultation?',
+      reply: 'Thank you for reaching out! EMC Solar Solutions offers 6 core services:\n1. Battery Backup Installation\n2. Whole-Home UPS/Inverter Upgrades\n3. Panel Cleaning & Inspection\n4. Performance Monitoring Setup\n5. System Health Checks & Inverter Diagnostics\n6. Net Metering Application Assistance\n\nWould you like a customized proposal or technical consultation?',
       action: {
         type: 'quote',
         label: 'Get Free Engineering Quote'
@@ -522,7 +522,7 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
         contactSection?.scrollIntoView({ behavior: 'smooth' });
       }
     } else if (action.type === 'call') {
-      const draftText = "Hi Solareign! I'm inquiring about solar solutions for my property.";
+      const draftText = "Hi EMC Solar Solutions! I'm inquiring about solar solutions for my property.";
       copyToClipboard(draftText);
       const viberUrl = `viber://chat?number=%2B639081454906&draft=${encodeURIComponent(draftText)}`;
       try {
@@ -531,7 +531,7 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
         window.open(`https://viber.me/639081454906?draft=${encodeURIComponent(draftText)}`, '_blank');
       }
     } else if (action.type === 'messenger') {
-      const draftText = "Hi Solareign! I'm inquiring about solar solutions for my property.";
+      const draftText = "Hi EMC Solar Solutions! I'm inquiring about solar solutions for my property.";
       copyToClipboard(draftText);
       const messengerUrl = `https://m.me/1130073486862415?text=${encodeURIComponent(draftText)}`;
       window.open(messengerUrl, '_blank', 'noopener,noreferrer');
@@ -890,11 +890,11 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
                   key={msg.id}
                   className={`flex flex-col ${msg.sender === 'user' ? 'items-end' : 'items-start'}`}
                 >
-                  {/* First Card (Welcome to Solareign Viber! 👋) matches reference image */}
+                  {/* First Card (Welcome to EMC Solar Solutions Viber! 👋) matches reference image */}
                   {index === 0 && msg.sender === 'bot' ? (
                     <div className="w-full bg-white rounded-2xl p-4 border border-slate-200/90 shadow-xs text-slate-800">
                       <div className="font-bold text-sm text-slate-900 mb-1.5 flex items-center gap-1.5">
-                        <span>Welcome to Solareign Viber!</span>
+                        <span>Welcome to EMC Solar Solutions Viber!</span>
                         <span>👋</span>
                       </div>
                       <p className="whitespace-pre-line text-sm leading-relaxed text-slate-700 font-normal">
@@ -1064,11 +1064,11 @@ export default function ChatbotWidget({ onOpenQuotation, onNavigateServices }: C
                   key={msg.id}
                   className={`flex flex-col ${msg.sender === 'user' ? 'items-end' : 'items-start'}`}
                 >
-                  {/* First Card (Welcome to Solareign Messenger! 👋) matches reference image flow */}
+                  {/* First Card (Welcome to EMC Solar Solutions Messenger! 👋) matches reference image flow */}
                   {index === 0 && msg.sender === 'bot' ? (
                     <div className="w-full bg-white rounded-2xl p-4 border border-slate-200/90 shadow-xs text-slate-800">
                       <div className="font-bold text-sm text-slate-900 mb-1.5 flex items-center gap-1.5">
-                        <span>Welcome to Solareign Messenger!</span>
+                        <span>Welcome to EMC Solar Solutions Messenger!</span>
                         <span>👋</span>
                       </div>
                       <p className="whitespace-pre-line text-sm leading-relaxed text-slate-700 font-normal">

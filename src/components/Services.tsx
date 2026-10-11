@@ -28,7 +28,7 @@ const FEATURED_HOME_SERVICES: HomeServiceCard[] = [
     title: 'Battery Backup Installation',
     shortDescription: 'Reliable lithium battery storage systems providing automatic seamless backup power during brownouts and blackouts.',
     image: 'https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?auto=format&fit=crop&w=800&q=80',
-    imageAlt: 'Solareign technician with LiFePO4 battery backup energy storage system',
+    imageAlt: 'EMC Solar Solutions technician with LiFePO4 battery backup energy storage system',
     icon: BatteryCharging,
   },
   {
@@ -44,7 +44,7 @@ const FEATURED_HOME_SERVICES: HomeServiceCard[] = [
     title: 'Panel Cleaning & Inspection',
     shortDescription: 'Gentle spot-free deionized washing, connector inspection, and hot-spot testing to restore peak solar power output.',
     image: 'https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=800&q=80',
-    imageAlt: 'Professional solar panel cleaning and thermal inspection by Solareign',
+    imageAlt: 'Professional solar panel cleaning and thermal inspection by EMC Solar Solutions',
     icon: Sparkles,
   },
   {

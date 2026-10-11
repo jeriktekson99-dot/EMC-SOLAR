@@ -66,14 +66,14 @@ export default function WhyChooseUs({ onConsultClick }: WhyChooseUsProps) {
 
                   {/* Structural Placement 3: Comprehensive Narrative Body */}
                   <p className="text-base text-slate-600 leading-relaxed font-normal">
-                    At Solareign, we combine years of renewable engineering experience, certified master roof technicians, and uncompromised Tier-1 hardware to deliver solar assets with quality, precision, and integrity. From site planning and blueprint drafting to utility grid synchronization, we are committed to exceeding expectations and building lasting generational value for every client.
+                    At EMC Solar Solutions, we combine years of renewable engineering experience, certified master roof technicians, and uncompromised Tier-1 hardware to deliver solar assets with quality, precision, and integrity. From site planning and blueprint drafting to utility grid synchronization, we are committed to exceeding expectations and building lasting generational value for every client.
                   </p>
                 </div>
 
                 {/* Structural Placement 4: Bottom Divider & Two-Column Footer Placement */}
                 <div className="pt-6 mt-8 border-t border-slate-100 flex items-center justify-between gap-4">
                   <span className="text-[11px] sm:text-xs font-bold tracking-widest uppercase text-slate-500">
-                    SOLAREIGN ENGINEERING
+                    EMC SOLAR SOLUTIONS
                   </span>
                   <span className="text-[11px] sm:text-xs font-black tracking-widest uppercase text-[#DC2626]">
                     QUALITY &amp; INTEGRITY

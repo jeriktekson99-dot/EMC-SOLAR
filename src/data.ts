@@ -1,7 +1,7 @@
 import { ServiceItem, PortfolioItem, TestimonialItem } from './types';
 
 export const COMPANY_INFO = {
-  name: 'Solareign Solar Power Services',
+  name: 'EMC Solar Solutions',
   tagline: 'Renewable Solar Energy Solutions',
   subheadline: 'Hybrid Packages Available | Power Your Home & Business with Clean, Reliable Energy',
   address: 'Don Placido Campos Avenue, Dasmariñas, Philippines, 4114',
@@ -9,7 +9,7 @@ export const COMPANY_INFO = {
   mobile: '0975 086 2563',
   email: 'emcsolarsolution@gmail.com',
   facebook: 'https://facebook.com/solareign.solar',
-  facebookHandle: '@SolareignSolarServices',
+  facebookHandle: '@EMCSolarSolutions',
   serviceHours: 'Mon - Sat: 8:00 AM - 5:00 PM',
   logoUrl: 'https://cdn.phototourl.com/member/2026-10-11-87e1bc20-84b6-4c31-8047-96dbef139d77.png',
 };
@@ -163,7 +163,7 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
     id: 'test-1',
     name: 'Engr. Roberto Santos',
     roleLocation: 'Dasmariñas City Homeowner',
-    quote: 'Solareign transformed our electric bill from ₱14,000 to under ₱1,800 monthly! Their 5kW hybrid system handled the recent Cavite typhoons without a single flicker in our lights.',
+    quote: 'EMC Solar Solutions transformed our electric bill from ₱14,000 to under ₱1,800 monthly! Their 5kW hybrid system handled the recent Cavite typhoons without a single flicker in our lights.',
     rating: 5,
     highlight: '₱12,000+ monthly savings',
   },
@@ -179,7 +179,7 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
     id: 'test-3',
     name: 'Arch. Ferdinand Cruz',
     roleLocation: 'Dasmariñas Resident',
-    quote: 'I am meticulous when it comes to rooftop aesthetics and safety. Solareign used top-tier mounting rails, neat cable raceways, and dependable lithium storage. Highest recommendation!',
+    quote: 'I am meticulous when it comes to rooftop aesthetics and safety. EMC Solar Solutions used top-tier mounting rails, neat cable raceways, and dependable lithium storage. Highest recommendation!',
     rating: 5,
     highlight: 'Pristine engineering & aesthetics',
   },

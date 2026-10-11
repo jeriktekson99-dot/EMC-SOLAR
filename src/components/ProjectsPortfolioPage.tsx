@@ -943,7 +943,7 @@ export default function ProjectsPortfolioPage({
                 <div className="p-4 bg-slate-50 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-[#DC2626]">
                   <span className="inline-flex items-center gap-1.5">
                     <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
-                    Published on Solareign Showcase
+                    Published on EMC Solar Solutions Showcase
                   </span>
                   <span className="text-slate-400 font-normal">
                     {previewProject.projectCode || previewProject.id}

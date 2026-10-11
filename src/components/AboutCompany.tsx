@@ -23,11 +23,11 @@ export default function AboutCompany({ onLearnMoreClick: _onLearnMoreClick }: Ab
             </h2>
 
             <p className="text-lg text-slate-700 font-medium leading-relaxed">
-              <strong>Solareign Solar Power Services</strong> is a trusted solar energy solutions provider proudly based in <strong>Dasmariñas, Cavite</strong>. We design, supply, and commission high-performance renewable power infrastructures for residential rooftops and commercial establishments.
+              <strong>EMC Solar Solutions</strong> is a trusted solar energy solutions provider proudly based in <strong>Dasmariñas, Cavite</strong>. We design, supply, and commission high-performance renewable power infrastructures for residential rooftops and commercial establishments.
             </p>
 
             <p className="text-lg text-slate-600 leading-relaxed">
-              Founded on the principles of engineering precision, premium hardware standards, and client-first after-sales commitment, Solareign guides clients every step of the way—from initial energy audit and structural rooftop analysis to net-metering utility approvals and long-term preventive maintenance.
+              Founded on the principles of engineering precision, premium hardware standards, and client-first after-sales commitment, EMC Solar Solutions guides clients every step of the way—from initial energy audit and structural rooftop analysis to net-metering utility approvals and long-term preventive maintenance.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function AboutCompany({ onLearnMoreClick: _onLearnMoreClick }: Ab
                 <div className="relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[10/9] bg-slate-900">
                   <img
                     src="https://cdn.phototourl.com/free/2026-09-17-43fda447-68c3-4284-8cb8-b1f11dbc19c0.png"
-                    alt="Solareign Solar Power Services installation team in Cavite"
+                    alt="EMC Solar Solutions installation team in Cavite"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                     referrerPolicy="no-referrer"

@@ -67,11 +67,11 @@ export default function ProblemSolution({ onConsultClick }: ProblemSolutionProps
             </h2>
 
             <p className="text-lg text-slate-700 font-medium leading-relaxed">
-              <strong>Philippine consumers face some of Southeast Asia's highest electricity rates</strong>, placing a heavy drain on household and business budgets. Solareign solves this by engineering custom, PEC-compliant rooftop solar systems with Tier-1 panels and intelligent hybrid inverters that <strong>slash monthly power bills by 60% to 80%</strong> from day one.
+              <strong>Philippine consumers face some of Southeast Asia's highest electricity rates</strong>, placing a heavy drain on household and business budgets. EMC Solar Solutions solves this by engineering custom, PEC-compliant rooftop solar systems with Tier-1 panels and intelligent hybrid inverters that <strong>slash monthly power bills by 60% to 80%</strong> from day one.
             </p>
 
             <p className="text-lg text-slate-600 leading-relaxed">
-              By producing your own clean energy, earning Net Metering credits on surplus power, and providing reliable blackout protection, Solareign transforms recurring utility expenses into 25 years of property equity.
+              By producing your own clean energy, earning Net Metering credits on surplus power, and providing reliable blackout protection, EMC Solar Solutions transforms recurring utility expenses into 25 years of property equity.
             </p>
           </div>
 

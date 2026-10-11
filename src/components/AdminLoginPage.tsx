@@ -149,7 +149,7 @@ export default function AdminLoginPage({ onBackToHome }: AdminLoginPageProps) {
               <div>
                 <div>
                   <span className="font-extrabold tracking-widest text-sm text-white uppercase select-none">
-                    SOLAREIGN SOLAR POWER SERVICES
+                    EMC SOLAR SOLUTIONS
                   </span>
                 </div>
               </div>
@@ -403,7 +403,7 @@ export default function AdminLoginPage({ onBackToHome }: AdminLoginPageProps) {
 
             <h3 className="text-xl font-black text-slate-900">Reset Access Credentials</h3>
             <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              Enter your corporate Solareign email address. Our systems engineering dispatcher will send an authorization token for password re-verification.
+              Enter your corporate EMC Solar Solutions email address. Our systems engineering dispatcher will send an authorization token for password re-verification.
             </p>
 
             {forgotError && (

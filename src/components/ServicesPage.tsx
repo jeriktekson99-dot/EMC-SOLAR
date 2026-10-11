@@ -38,7 +38,7 @@ export default function ServicesPage({ onConsultationClick: _onConsultationClick
       description:
         'Safeguard your entire property from unexpected utility blackouts with advanced lithium storage systems engineered to deliver seamless automated backup power, keeping essential household appliances and delicate smart electronics energized.',
       image: 'https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?auto=format&fit=crop&w=1200&q=80',
-      imageAlt: 'Solareign technician with LiFePO4 battery backup energy storage system',
+      imageAlt: 'EMC Solar Solutions technician with LiFePO4 battery backup energy storage system',
       imageLeft: true,
       features: [
         'Size battery capacity carefully.',
@@ -82,7 +82,7 @@ export default function ServicesPage({ onConsultationClick: _onConsultationClick
       description:
         'Restore peak generation efficiency to your photovoltaic modules using spot free deionized water filtration, gentle rotating brushes, and thermal imaging diagnostics to identify microscopic surface defects and hidden faults.',
       image: 'https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=1200&q=80',
-      imageAlt: 'Professional solar panel cleaning and thermal inspection by Solareign',
+      imageAlt: 'Professional solar panel cleaning and thermal inspection by EMC Solar Solutions',
       imageLeft: true,
       features: [
         'Check for surface cracks.',

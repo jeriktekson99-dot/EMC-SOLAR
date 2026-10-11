@@ -1009,7 +1009,7 @@ export default function CalendarSelectorModal({
                   {/* Summary note in card footer */}
                   <div className="pt-3 border-t border-slate-100 text-[10px] text-slate-400 flex items-center justify-between font-medium">
                     <span>Field operations logged for Cavite corridor</span>
-                    <span className="text-[#DC2626] font-bold">Solareign OS</span>
+                    <span className="text-[#DC2626] font-bold">EMC Solar OS</span>
                   </div>
                 </div>
               </div>

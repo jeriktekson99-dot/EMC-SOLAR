@@ -67,7 +67,7 @@ export default function SystemSettingsPage({
     customUrls: []
   },
   initialOperations = {
-    branchName: 'Solareign Solar Power Services - Cavite Operations',
+    branchName: 'EMC Solar Solutions - Cavite Operations',
     contactEmail: 'emcsolarsolution@gmail.com',
     hotline: '0975 086 2563',
     meralcoRate: '12.50',

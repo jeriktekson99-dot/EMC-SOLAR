@@ -1,5 +1,5 @@
 // TermsOfUsePage.tsx
-// Solareign Solar Power Services - Terms of Use
+// EMC Solar Solutions - Terms of Use
 
 interface TermsOfUsePageProps {
   onBackToHome?: () => void;
@@ -60,7 +60,7 @@ export default function TermsOfUsePage({}: TermsOfUsePageProps) {
                 1. Scope of Engineering &amp; Service Undertakings
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                Solareign Solar Power Services executes turnkey photovoltaic engineering, including rooftop structural assessments, electrical load auditing, procurement of Tier-1 solar modules and smart inverters, municipal permitting, and utility net-metering interconnection. All proposals and financial yield projections prepared by Solareign reflect verified PVsyst meteorological datasets and local utility billing tariffs applicable at the time of quotation.
+                EMC Solar Solutions executes turnkey photovoltaic engineering, including rooftop structural assessments, electrical load auditing, procurement of Tier-1 solar modules and smart inverters, municipal permitting, and utility net-metering interconnection. All proposals and financial yield projections prepared by EMC Solar Solutions reflect verified PVsyst meteorological datasets and local utility billing tariffs applicable at the time of quotation.
               </p>
             </div>
 
@@ -70,7 +70,7 @@ export default function TermsOfUsePage({}: TermsOfUsePageProps) {
                 2. Performance Projections, Hardware &amp; Linear Warranties
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                When commissioning an installation through Solareign Solar Power Services, client protections and equipment warranties include:
+                When commissioning an installation through EMC Solar Solutions, client protections and equipment warranties include:
               </p>
               <ul className="space-y-2.5 text-sm sm:text-base text-slate-600 pl-2">
                 <li className="flex items-start gap-2">
@@ -100,7 +100,7 @@ export default function TermsOfUsePage({}: TermsOfUsePageProps) {
                 3. Property Owner Prerequisites &amp; Site Access Guidelines
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                The property owner agrees to grant certified Solareign engineering personnel unhindered access to roof areas, main distribution electrical service panels (MDP), and internet routers required for smart solar monitoring setup. The owner certifies that the mounting superstructure and roof truss network meet standard structural integrity criteria or agrees to remedial reinforcements prior to panel placement.
+                The property owner agrees to grant certified EMC Solar Solutions engineering personnel unhindered access to roof areas, main distribution electrical service panels (MDP), and internet routers required for smart solar monitoring setup. The owner certifies that the mounting superstructure and roof truss network meet standard structural integrity criteria or agrees to remedial reinforcements prior to panel placement.
               </p>
             </div>
 
@@ -110,7 +110,7 @@ export default function TermsOfUsePage({}: TermsOfUsePageProps) {
                 4. Grid Interconnection, Net-Metering &amp; Utility Dependency
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                Utility net-metering approval timelines are governed by local distribution utilities (e.g., Meralco, PELCO, FLECO) and the Energy Regulatory Commission (ERC). While Solareign manages all technical documentation, single-line diagrams, and testing coordination, utility meter swap schedules remain subject to utility procedural queues. Standard grid-tied inverters automatically isolate during utility outages per anti-islanding safety codes unless an active battery storage or hybrid backup system is installed.
+                Utility net-metering approval timelines are governed by local distribution utilities (e.g., Meralco, PELCO, FLECO) and the Energy Regulatory Commission (ERC). While EMC Solar Solutions manages all technical documentation, single-line diagrams, and testing coordination, utility meter swap schedules remain subject to utility procedural queues. Standard grid-tied inverters automatically isolate during utility outages per anti-islanding safety codes unless an active battery storage or hybrid backup system is installed.
               </p>
             </div>
 

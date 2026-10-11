@@ -12,7 +12,7 @@ export default function SolareignLogo({ className = '', imgClassName = '' }: Sol
       {/* Company Official Logo Mark */}
       <img
         src={SOLAREIGN_LOGO_URL}
-        alt="Solareign Solar Power Services"
+        alt="EMC Solar Solutions"
         referrerPolicy="no-referrer"
         loading="eager"
         decoding="async"

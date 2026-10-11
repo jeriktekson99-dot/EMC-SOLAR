@@ -1,5 +1,5 @@
 // PrivacyPolicyPage.tsx
-// Solareign Solar Power Services - Privacy Policy
+// EMC Solar Solutions - Privacy Policy
 
 interface PrivacyPolicyPageProps {
   onBackToHome?: () => void;
@@ -9,7 +9,7 @@ interface PrivacyPolicyPageProps {
 export default function PrivacyPolicyPage({}: PrivacyPolicyPageProps) {
   return (
     <div className="bg-white text-[#0F172A] font-sans antialiased min-h-screen">
-      {/* 1. Page Hero Banner (Matching Solareign Hero Design with Dark Atmospheric Gradient) */}
+      {/* 1. Page Hero Banner with Dark Atmospheric Gradient */}
       <section
         id="privacy-hero-header"
         className="relative py-20 sm:py-24 lg:py-28 overflow-hidden bg-gradient-to-r from-[#0F172A] via-[#111827] to-[#090D14] text-left text-white border-b border-[#DC2626]/30"
@@ -60,7 +60,7 @@ export default function PrivacyPolicyPage({}: PrivacyPolicyPageProps) {
                 1. Core Commitment to Information Security
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                At Solareign Solar Power Services, we prioritize the secure handling of your private telemetry and structural energy data. We are dedicated to ensuring that your details—such as rooftop solar blueprints, active electrical loads, grid offset data, and digital consult metadata—are safeguarded using state-of-the-art encryption layers. No telemetry is shared with uncertified or unvetted external utility contractors without direct manual consent from the primary account supervisor.
+                At EMC Solar Solutions, we prioritize the secure handling of your private telemetry and structural energy data. We are dedicated to ensuring that your details—such as rooftop solar blueprints, active electrical loads, grid offset data, and digital consult metadata—are safeguarded using state-of-the-art encryption layers. No telemetry is shared with uncertified or unvetted external utility contractors without direct manual consent from the primary account supervisor.
               </p>
             </div>
 
@@ -70,7 +70,7 @@ export default function PrivacyPolicyPage({}: PrivacyPolicyPageProps) {
                 2. Types of Telemetry &amp; Core Data Collected
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                When utilizing the Solareign Solar ecosystem, we collect data to provide, audit, and improve solar installations:
+                When utilizing the EMC Solar Solutions ecosystem, we collect data to provide, audit, and improve solar installations:
               </p>
               <ul className="space-y-2.5 text-sm sm:text-base text-slate-600 pl-2">
                 <li className="flex items-start gap-2">

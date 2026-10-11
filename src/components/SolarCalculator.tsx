@@ -140,19 +140,19 @@ Direct Engineering Support: 0975 086 2563 | emcsolarsolution@gmail.com | www.sol
         doc.circle(27, 14, 6, 'F');
       }
 
-      // Brand Typography: Solareign Solar Power Services
+      // Brand Typography: EMC Solar Solutions
       doc.setFont('helvetica', 'bold');
       doc.setFontSize(14.5);
       doc.setTextColor(255, 255, 255);
-      doc.text('SOLA', 39, 13.5);
-      const solaWidth = doc.getTextWidth('SOLA');
+      doc.text('EMC', 39, 13.5);
+      const emcWidth = doc.getTextWidth('EMC');
       doc.setTextColor(250, 204, 21); // #FACC15 Sun Yellow
-      doc.text('REIGN', 39 + solaWidth, 13.5);
+      doc.text(' SOLAR', 39 + emcWidth, 13.5);
 
       doc.setFont('helvetica', 'bold');
       doc.setFontSize(7.5);
       doc.setTextColor(250, 204, 21); // #FACC15 Sun Yellow
-      doc.text('SOLAR POWER SERVICES', 39, 18.5);
+      doc.text('SOLUTIONS', 39, 18.5);
 
       // Header Date & Version on Right
       const today = new Date();
@@ -168,7 +168,7 @@ Direct Engineering Support: 0975 086 2563 | emcsolarsolution@gmail.com | www.sol
       doc.setFontSize(9.5);
       doc.setTextColor(30, 41, 59);
       doc.text(
-        'Thank you for choosing Solareign Solar Power Services. Below is your custom high-fidelity energy simulation and solar investment report based on the parameters provided.',
+        'Thank you for choosing EMC Solar Solutions. Below is your custom high-fidelity energy simulation and solar investment report based on the parameters provided.',
         18,
         38,
         { maxWidth: 174 }
@@ -306,7 +306,7 @@ Direct Engineering Support: 0975 086 2563 | emcsolarsolution@gmail.com | www.sol
       doc.text('Email: emcsolarsolution@gmail.com  |  Phone: 0975 086 2563  |  Web: www.solareignsolarpower.com', 18, footerY + 10);
 
       // Download actual PDF file
-      doc.save(`Solareign_Solar_Power_Services_Report_${monthlyBill}PHP_${calculation.recommendedKwp}kWp.pdf`);
+      doc.save(`EMC_Solar_Solutions_Report_${monthlyBill}PHP_${calculation.recommendedKwp}kWp.pdf`);
     } catch (err) {
       console.error('Failed to generate PDF:', err);
     }

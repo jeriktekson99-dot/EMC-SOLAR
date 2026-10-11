@@ -393,7 +393,7 @@ export default function MultiStepQuoteForm({
           {/* Engineering Notice & Submit Another Request Link */}
           <div className="space-y-4 w-full max-w-md mx-auto">
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              Our engineering team from <strong className="text-white font-bold">Solareign Solar Services</strong> will review your structural inputs and contact you at <span className="underline underline-offset-2 text-white font-medium">{formData.phone || formData.email || 'your registered contact'}</span> within 2 business hours.
+              Our engineering team from <strong className="text-white font-bold">EMC Solar Solutions</strong> will review your structural inputs and contact you at <span className="underline underline-offset-2 text-white font-medium">{formData.phone || formData.email || 'your registered contact'}</span> within 2 business hours.
             </p>
 
             <div>

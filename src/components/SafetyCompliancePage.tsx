@@ -1,5 +1,5 @@
 // SafetyCompliancePage.tsx
-// Solareign Solar Power Services - Safety Standard Compliance
+// EMC Solar Solutions - Safety Standard Compliance
 
 interface SafetyCompliancePageProps {
   onBackToHome?: () => void;
@@ -9,7 +9,7 @@ interface SafetyCompliancePageProps {
 export default function SafetyCompliancePage({}: SafetyCompliancePageProps) {
   return (
     <div className="bg-white text-[#0F172A] font-sans antialiased min-h-screen">
-      {/* 1. Page Hero Banner (Matching Solareign Hero Design with Dark Atmospheric Gradient) */}
+      {/* 1. Page Hero Banner with Dark Atmospheric Gradient */}
       <section
         id="safety-hero-header"
         className="relative py-20 sm:py-24 lg:py-28 overflow-hidden bg-gradient-to-r from-[#0F172A] via-[#111827] to-[#090D14] text-left text-white border-b border-[#DC2626]/30"
@@ -60,7 +60,7 @@ export default function SafetyCompliancePage({}: SafetyCompliancePageProps) {
                 1. Mandatory Electrical &amp; Structural Code Adherence
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                Every photovoltaic system deployed by Solareign Solar Power Services is engineered in strict compliance with the Philippine Electrical Code (PEC 2017 Edition), the National Structural Code of the Philippines (NSCP 2015), and IEEE 1547 standards for interconnection and interoperability of distributed energy resources. All electrical layouts, conductor gauge selections, conduit routings, and overcurrent protections exceed standard residential and commercial safety tolerances.
+                Every photovoltaic system deployed by EMC Solar Solutions is engineered in strict compliance with the Philippine Electrical Code (PEC 2017 Edition), the National Structural Code of the Philippines (NSCP 2015), and IEEE 1547 standards for interconnection and interoperability of distributed energy resources. All electrical layouts, conductor gauge selections, conduit routings, and overcurrent protections exceed standard residential and commercial safety tolerances.
               </p>
             </div>
 
@@ -70,7 +70,7 @@ export default function SafetyCompliancePage({}: SafetyCompliancePageProps) {
                 2. Core Hardware Safety Systems &amp; Field Protections
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                Every Solareign solar power array incorporates multi-tiered hardware protections to safeguard occupants, structural assets, and utility workers:
+                Every EMC Solar Solutions power array incorporates multi-tiered hardware protections to safeguard occupants, structural assets, and utility workers:
               </p>
               <ul className="space-y-2.5 text-sm sm:text-base text-slate-600 pl-2">
                 <li className="flex items-start gap-2">
@@ -120,7 +120,7 @@ export default function SafetyCompliancePage({}: SafetyCompliancePageProps) {
                 5. Continuous Commissioning Audits &amp; Safety Recertification
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                Following energization, Solareign provides scheduled preventive maintenance checks, including calibrated thermal infrared imaging to detect potential cell micro-cracks or hot spots, terminal torque verifications, and inverter firmware safety updates. Field engineers remain on call 24/7 for urgent technical inspections and electrical safety queries.
+                Following energization, EMC Solar Solutions provides scheduled preventive maintenance checks, including calibrated thermal infrared imaging to detect potential cell micro-cracks or hot spots, terminal torque verifications, and inverter firmware safety updates. Field engineers remain on call 24/7 for urgent technical inspections and electrical safety queries.
               </p>
             </div>
 
@@ -132,7 +132,7 @@ export default function SafetyCompliancePage({}: SafetyCompliancePageProps) {
           {/* Sub-footer Tagline */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs font-medium tracking-wider text-slate-400 uppercase">
             <div className="flex flex-wrap items-center gap-2">
-              <span>SOLAREIGN SOLAR POWER SERVICES</span>
+              <span>EMC SOLAR SOLUTIONS</span>
               <span className="text-slate-300 select-none" aria-hidden="true">•</span>
               <span>ENGINEERING SAFETY &amp; CODE COMPLIANCE</span>
             </div>

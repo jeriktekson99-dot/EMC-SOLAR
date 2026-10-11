@@ -437,7 +437,7 @@ const INITIAL_SOCIAL_LINKS: SocialLinksConfig = {
 };
 
 const INITIAL_SETTINGS: OperationalSettingsConfig = {
-  branchName: 'Solareign Solar Power Services - Cavite Operations',
+  branchName: 'EMC Solar Solutions - Cavite Operations',
   contactEmail: 'emcsolarsolution@gmail.com',
   hotline: '0975 086 2563',
   meralcoRate: '12.50',
@@ -1760,8 +1760,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
           : (mapItem?.sector || liveItem.category.toUpperCase()),
         location: liveItem.location.toUpperCase(),
         managingEngineer: 'JERNALD DIVINA MESINA',
-        engineerRole: 'Founder & General Manager, Solareign Services',
-        contractor: 'SOLAREIGN ENGINEERING & INSTALLATION TEAM',
+        engineerRole: 'Founder & General Manager, EMC Solar Solutions',
+        contractor: 'EMC SOLAR SOLUTIONS ENGINEERING & INSTALLATION TEAM',
         email: 'emcsolarsolution@gmail.com',
         engineerNote: liveItem.summary || liveItem.details,
         scopeDetails: liveItem.scopeDetails || liveItem.details || '',
@@ -1826,8 +1826,8 @@ export function DataProvider({ children }: { children: ReactNode }) {
       sector: fallback.category.toUpperCase(),
       location: fallback.location.toUpperCase(),
       managingEngineer: 'JERNALD DIVINA MESINA',
-      engineerRole: 'Founder & General Manager, Solareign Services',
-      contractor: 'SOLAREIGN ENGINEERING & INSTALLATION TEAM',
+      engineerRole: 'Founder & General Manager, EMC Solar Solutions',
+      contractor: 'EMC SOLAR SOLUTIONS ENGINEERING & INSTALLATION TEAM',
       email: 'emcsolarsolution@gmail.com',
       engineerNote: fallback.summary,
       gallery: fallback.galleryImages.map((url, idx) => ({
