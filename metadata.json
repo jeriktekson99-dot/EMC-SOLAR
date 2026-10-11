@@ -1,0 +1,8 @@
+{
+  "name": "EMC SOLAR SOLUTIONS V2 (OFFICIAL)",
+  "description": "Renewable solar energy solutions, hybrid packages, and expert solar installation in Bacoor City, Cavite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
